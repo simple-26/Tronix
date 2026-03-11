@@ -121,6 +121,7 @@ function checkCollision() {
 function gameOver() {
 
     gameRunning = false;
+    
     document.getElementById("gameOver").style.display = "block";
 
 }
